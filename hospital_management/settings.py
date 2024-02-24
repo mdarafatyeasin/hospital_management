@@ -30,6 +30,7 @@ SECRET_KEY = 'django-insecure-b$rzd4(0)$1x=rku-_i@v+2s!v3+ie2$3sj6g^5u1i#=w%-dp-
 DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
+CSRF_TRUSTED_ORIGINS = ['https://hospital-management-1las.onrender.com','https://*.127.0.0.1']
 
 
 # Application definition
