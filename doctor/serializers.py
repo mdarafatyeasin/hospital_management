@@ -21,8 +21,8 @@ class AvailableTimeSerializer(serializers.ModelSerializer):
 
 
 class DoctorSerializer(serializers.ModelSerializer):
-    user = serializers.StringRelatedField(many=False)
-    designation = serializers.StringRelatedField(many=False)
+    # user = serializers.StringRelatedField(many=False)
+    # designation = serializers.StringRelatedField(many=False)
     class Meta:
         model = models.Doctor
         fields = '__all__'
